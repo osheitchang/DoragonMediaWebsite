@@ -46,7 +46,7 @@ export function Hero() {
         for the future
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Empowering companies with well designed solutions
+        Empowering organizations with custom solutions
         <div className="mt-10 flex justify-center gap-x-6">
           <Button
             href="/register">
@@ -92,8 +92,8 @@ export function Hero() {
                   className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
                 >
                   {group.map((company) => (
-                    <li key={company.name} className="flex">
-                      <Image src={company.logo} alt={`${company.name} logo`} unoptimized />
+                    <li key={company.name} className="flex h-12 w-48">
+                      <Image className="" src={company.logo} alt={`${company.name} logo`} unoptimized />
                     </li>
                   ))}
                 </ul>

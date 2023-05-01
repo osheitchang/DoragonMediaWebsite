@@ -40,6 +40,7 @@ const features = [
 ]
 
 export function PrimaryFeatures() {
+
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {
@@ -74,10 +75,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Effective solutions for any project.
+            Different products same results.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            A team of experts ready to design solutions tailored to your needs.
+            For any type of project there is an <b>expert</b> for  you.
           </p>
         </div>
         <Tab.Group
