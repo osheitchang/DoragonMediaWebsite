@@ -9,6 +9,7 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { Form }  from '@/components/Form';
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <title>Doragon Media - Digital Marketing that drives results</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Transforming your digital vision into reality - Doragon Media, your custom software solutions partner."
         />
       </Head>
       <Header />
@@ -29,6 +30,7 @@ export default function Home() {
         <Testimonials />
         <Pricing />
         <Faqs />
+        <Form />
       </main>
       <Footer />
     </>

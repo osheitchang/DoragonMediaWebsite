@@ -86,7 +86,7 @@ export default function ComingSoon() {
                                     type="submit"
                                     className="flex-none rounded-md px-3.5 py-2.5 text-sm font-semibold font-display text-sky-500 bg-white shadow-sm hover:bg-white/95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                                 >
-                                    Subscribe
+                                    Sign Up
                                 </button>
                             </div>
                             <p className="mt-4 text-sm leading-6 text-white ">

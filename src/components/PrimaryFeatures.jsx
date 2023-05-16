@@ -10,7 +10,7 @@ import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import UxUi from '@/images/screenshots/UX-UI.jpg'
 import webDevelopment from '@/images/screenshots/web-development.jpg'
-import appDevelopment from '@/images/screenshots/app-development.jpg'
+import advertising from '@/images/screenshots/advertising.jpg'
 
 const features = [
   {
@@ -20,10 +20,10 @@ const features = [
     image: webDevelopment,
   },
   {
-    title: 'App developent',
+    title: 'Advertising',
     description:
       "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: appDevelopment,
+    image: advertising,
   },
   {
     title: 'UX/UI design',
